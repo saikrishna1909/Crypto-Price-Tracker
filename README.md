@@ -91,23 +91,25 @@ crypto-dash/
 │       └── components.css
 ├── package.json
 └── README.md
-🔁 App Flow
-1. Load & Display
+```
+
+## 🔁 App Flow
+## 1. Load & Display
 App loads mock crypto data from mockData.js into Redux store on app mount.
 
 Table is rendered using this Redux data via selectors.
 
-2. Real-Time Simulation
+## 2. Real-Time Simulation
 simulateUpdates.js contains a function using setInterval that:
 
 Randomly updates the price, % changes, and volume of each asset.
 
 Dispatches Redux actions to update the global state.
 
-3. Render Updates
+## 3. Render Updates
 React components automatically re-render on Redux state changes, reflecting real-time values.
 
-🎨 Styling
+### 🎨 Styling
 Responsive design using regular CSS (no Tailwind or Bootstrap).
 
 Table layout adapts to mobile and desktop screens.
@@ -116,7 +118,7 @@ Positive/negative % change coloring for user clarity.
 
 Includes static 7D SVG charts (placeholders) per asset.
 
-🌐 Deployment
+### 🌐 Deployment
 You can deploy this app using any static site hosting platform:
 
 Netlify
@@ -140,11 +142,11 @@ Set Publish Directory: build/
 
 Deploy your site 🎉
 
-📜 License
+### 📜 License
 This project is licensed under the MIT License.
 Feel free to use, modify, and distribute.
 
-🤝 Contributing
+### 🤝 Contributing
 Contributions are welcome!
 
 Fork the repository
@@ -157,7 +159,7 @@ Test thoroughly
 
 Submit a pull request
 
-📬 Contact
+### 📬 Contact
 📧 Email: kondasaikrishna13@gmail.com
 
 💻 GitHub: saikrishna1909
